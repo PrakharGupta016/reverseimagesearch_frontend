@@ -27,7 +27,7 @@ const FormDisabledDemo = () => {
       >
         
         <Form.Item label="Upload" valuePropName="fileList" getValueFromEvent={normFile}>
-          <Upload action="/upload.do" listType="picture-card">
+          <Upload  listType="picture-card">
             <div>
               <PlusOutlined />
               <div style={{ marginTop: 8 }}>Upload</div>
@@ -37,7 +37,7 @@ const FormDisabledDemo = () => {
         <Form.Item label="Button">
           <Button>Button</Button>
         </Form.Item>
-        
+
       </Form>
     </>
   );
