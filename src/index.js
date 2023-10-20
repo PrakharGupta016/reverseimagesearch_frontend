@@ -4,8 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './components/HomePage';
 import FormDisabledDemo from './components/Form';
-import { Form, Upload, Button } from 'antd';
-import { UploadOutlined } from '@ant-design/icons';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
